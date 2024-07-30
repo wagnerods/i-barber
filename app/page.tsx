@@ -1,3 +1,7 @@
+// SERVER COMPONENTS (Executado do lado do servidor, acessa recursos sensiveis como DB e variaveis de ambientes)
+// Não aceita interações de manipulação de DOM UseState e interações do usuário
+//Portanto precisa configurar para "use client";
+
 import Image from "next/image";
 
 export default function Home() {
