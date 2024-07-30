@@ -2,8 +2,10 @@
 // Não aceita interações de manipulação de DOM UseState e interações do usuário
 //Portanto precisa configurar para "use client";
 
+import { Button } from "../_components/ui/button";
+
 const About = () =>{
-    return <h1 className="text-red-500 mb-5 bg-red-50">about page</h1>;
+    return <Button>test</Button>;
 };
 
 export default About;
